@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: url(../img/wing-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 50%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header img{
+    width: 550px;
+    margin: 10px 0;
+}
+form{
+    width: 70%;
+    height: 80vh;
+    background: white;
+    border-radius: 25px;
+    padding: 10% 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.switch{
+    display: flex;
+}
+.switch button{
+    width: 200px;
+    height: 50px;
+    background: white;
+    border: 2px solid #A6CC38;
+}
+.switch button a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #0176FE;
+}
+.switch .log-in{
+    background: #A6CC38;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.switch .log-in a{
+    color: #fff;
+}
+.switch .sing-up{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+h2{
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #0176FE;
+}
+form input{
+    width: 350px;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.phone-number,.password{
+    display: flex;
+    border: #0176FE 2px solid;
+    border-radius: 45px;
+    margin-top: 30px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+i{
+    margin: auto 0;
+}
+form .forget{
+    font-size: 14px;
+    align-self: flex-end;
+    padding-right: 20%;
+    margin-top: 5px;
+    color: #0176FE;
+}
+#log-in{
+    margin-top: 20px;
+    width: 400px;
+    height: 50px;
+    background: #A6CC38;
+    border-radius: 45px;
+    border:#A6CC38 2px solid;
+    font-size: 24px;
+    color: white;
+}
+#log-in:hover{
+    background: white;
+    color: #A6CC38;
+}
+.languges{
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.languges a{
+    color: #0176FE;
+}
